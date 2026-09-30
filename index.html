@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>APNA BAZAAR</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <div class="logo">
+      <span>APNA</span> BAZAAR
+    </div>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#categories">Categories</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="menu">☰</button>
+  </header>
+
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <div class="hero-text">
+
+      <p class="tagline">WELCOME TO APNA BAZAAR</p>
+
+      <h1>
+        Buy Smart.<br>
+        <span>Live Better.</span>
+      </h1>
+
+      <p class="hero-description">
+        Quality products, trusted prices and easy shopping.
+        Everything you need, all in one place.
+      </p>
+
+      <div class="buttons">
+        <a href="#products" class="btn main-btn">
+          Shop Now
+        </a>
+
+        <a href="#contact" class="btn outline-btn">
+          Contact Us
+        </a>
+      </div>
+
+    </div>
+
+    <div class="hero-box">
+      <div class="shopping-icon">🛍️</div>
+      <h2>APNA BAZAAR</h2>
+      <p>Buy • Sell • Exchange</p>
+    </div>
+
+  </section>
+
+
+  <!-- CATEGORIES -->
+  <section class="section" id="categories">
+    <div class="search-box">
+  <input
+    type="text"
+    id="searchInput"
+    placeholder="🔍 Search products..."
+    onkeyup="searchProducts()"
+  >
+</div>
+
+    <div class="heading">
+      <p>EXPLORE</p>
+      <h2>Shop By Category</h2>
+    </div>
+
+    <div class="categories">
+
+      <div class="category-card">
+        <div>📱</div>
+        <h3>Mobiles</h3>
+        <p>Smartphones & more</p>
+      </div>
+
+      <div class="category-card">
+        <div>💻</div>
+        <h3>Laptops</h3>
+        <p>Work & gaming laptops</p>
+      </div>
+
+      <div class="category-card">
+        <div>🎧</div>
+        <h3>Accessories</h3>
+        <p>Useful accessories</p>
+      </div>
+
+      <div class="category-card">
+        <div>📺</div>
+        <h3>Electronics</h3>
+        <p>Quality electronics</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- PRODUCTS -->
+  <section class="section products-section" id="products">
+
+    <div class="heading">
+      <p>OUR COLLECTION</p>
+      <h2>Featured Products</h2>
+    </div>
+
+    <div class="products">
+
+      <div class="product-card">
+
+        <div class="product-img">📱</div>
+
+        <div class="product-info">
+
+          <span class="used">USED</span>
+
+          <h3>iPhone 14</h3>
+
+          <p>128GB • Excellent Condition</p>
+
+          <div class="price-row">
+            <strong>₹42,999</strong>
+
+            <button onclick="whatsapp('iPhone 14')">
+              WhatsApp
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="product-card">
+
+        <div class="product-img">📱</div>
+
+        <div class="product-info">
+
+          <span class="used">USED</span>
+
+          <h3>Samsung S24</h3>
+
+          <p>256GB • Excellent Condition</p>
+
+          <div class="price-row">
+            <strong>₹48,999</strong>
+
+            <button onclick="whatsapp('Samsung S24')">
+              WhatsApp
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="product-card">
+
+        <div class="product-img">💻</div>
+
+        <div class="product-info">
+
+          <span class="used">USED</span>
+
+          <h3>MacBook Air M1</h3>
+
+          <p>8GB RAM • 256GB SSD</p>
+
+          <div class="price-row">
+            <strong>₹55,999</strong>
+
+            <button onclick="whatsapp('MacBook Air M1')">
+              WhatsApp
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- WHY US -->
+  <section class="why">
+
+    <div class="heading">
+      <p>WHY APNA BAZAAR</p>
+      <h2>Shopping Made Simple</h2>
+    </div>
+
+    <div class="why-grid">
+
+      <div>
+        <div class="why-icon">✓</div>
+        <h3>Trusted Products</h3>
+        <p>Quality products at genuine prices.</p>
+      </div>
+
+      <div>
+        <div class="why-icon">₹</div>
+        <h3>Best Deals</h3>
+        <p>Great products at competitive prices.</p>
+      </div>
+
+      <div>
+        <div class="why-icon">⚡</div>
+        <h3>Fast Support</h3>
+        <p>Easy and quick customer support.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- SELL SECTION -->
+  <section class="sell">
+
+    <div>
+      <p>HAVE SOMETHING TO SELL?</p>
+
+      <h2>Sell or Exchange Your Product</h2>
+
+      <p>
+        Get in touch with APNA BAZAAR and get a great deal
+        for your product.
+      </p>
+
+      <a
+        href="https://wa.me/919530182253"
+        class="btn whatsapp"
+      >
+        💬 Sell / Exchange
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+
+    <div class="heading">
+      <p>ABOUT US</p>
+      <h2>APNA BAZAAR</h2>
+    </div>
+
+    <p>
+      APNA BAZAAR is a trusted platform where customers can
+      find quality products at genuine prices. Our goal is to
+      make buying, selling and exchanging products simple.
+    </p>
+
+  </section>
+
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+
+    <h2>Let's Connect</h2>
+
+    <p>Have any questions? Contact us on WhatsApp.</p>
+
+    <a
+      href="https://wa.me/919530182253"
+      target="_blank"
+      class="whatsapp"
+    >
+      💬 Chat on WhatsApp
+    </a>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <h2>APNA BAZAAR</h2>
+
+    <p>Buy • Sell • Exchange</p>
+
+    <small>
+      © 2026 APNA BAZAAR. All Rights Reserved.
+    </small>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
